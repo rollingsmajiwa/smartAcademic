@@ -45,7 +45,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    max-width: 600px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid black;
     margin: 40px;
@@ -72,6 +73,11 @@ body {
     background-color: #f8fafc;
     
 }
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
 footer {
     border-top: 2px solid black;
@@ -79,7 +85,10 @@ footer {
     background-color: #18223a;
     color: white;
     
+    
 }
+
+
 .footer-bottom {
     border-top: 2px solid black;
     display: flex;
@@ -107,30 +116,42 @@ footer {
 }
 .footer p {
     font-size: 0.95rem;
+    
 }
 .footer-container {
     padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 600px;
+    max-width: 1100px;
     gap: 30px;
 }
 .about-container2 {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 5px;
-    padding: 80px 40px;
+    padding: 10px 40px;
+}
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+
+}
+.about-image {
+    background-color: rgb(185, 196, 199);
+    padding: 8px;
+    box-shadow: 4px 4px 23px 1px rgb(161, 161, 194);
 }
 .about-container2 h2 {
     color: #0F172A;
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .about-container2 h1 {
     color: #0F172A;
@@ -139,19 +160,20 @@ footer {
     line-height: 1.25;
     margin-bottom: 20px;
 }
-.about-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-.about-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 16px;
-}
+
+
 @media (max-width: 968px) {
     .about-container2 {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
+    .service-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 }
