@@ -4,20 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>smartAcademic</title>
+    <link rel="stylesheet" href="styles.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     
 </head>
 <body>
     <header>
         <nav>
-            <div>SmartAcademic</div>
-            <div>
+            <div class="logo">SmartAcademic</div>
+            <div class="navli">
                 <a href="#Home">Home</a>
                 <a href="#About">About</a>
                 <a href="#Services">Services</a>
-                <a href="Contact">Contact</a>
+                <a href="#Contact">Contact</a>
             </div>
         </nav>
     </header>
+    <main>
+        <section id="Home">
+            <div class="hero-card">
+                <div class="hero-item">
+                    <h1>Empower your School with smartAcademic</h1>
+                    <p>Eliminate manual paper logbooks, easen exam timing and supervision. This is a secured website that fully replaces physical paperwork in our schools especially in staff daily attendance. It also enhances seamless examination supervision by integrating countdown timers for students.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="Services">
+            <div class="max-auto w-6xl">
+                <h2 class="text-2xl font-black text-center mt-9">Our Services</h2>
+                <div class="grid grid-cols-3 gap-5">
+                    <div class="bg-white p-2">
+                        <h3 class="text-slate-900 font-lg font-black">Teachers Dashboard</h3>
+                        <p class="text-slate-500">Teachers can only clock in when standing within the school compound. They can also upload and publish assessments to students.</p>
+                        <div><a href="#teacher-dashboard.html" class="text-blue-500">Access Dashboard</a></div>
+                    </div>
+                    <div class="bg-white p-2">
+                        <h3 class="text-slate-900 font-lg font-black">Student Dashboard</h3>
+                        <p class="text-slate-500">Students can only do the assessments within the stipulated time. The screen locks down and auto-submit when the timer hits zero.</p>
+                        <div><a href="#student-dashboard.html" class="text-blue-500">Access Dashboard</a></div>
+                    </div>
+                    <div class="bg-white p-2">
+                        <h3 class="text-slate-900 font-lg font-black tracking-wider">Admin Dashboard</h3>
+                        <p class="text-slate-500">Administrator can view live reporting on attendance and exams submissions.</p>
+                        <div><a href="#admin-dashboard.html" class="text-blue-500">Access Dashboard</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="Contact">
+            <div class="mt-10">
+                <h2 class="text-2xl font-black text-center">Contact Us</h2> 
+                    <p class="text-center">We will be glad to hear from you. Share with us the areas of improvement.</p>               
+                <div class="grid grid-cols-2 gap-30">
+                    <div>
+                        <P>Thendigwa, Kiambu Road, Kiambu</P>
+                        <span>+254742234604</span>
+                    </div>
+                    <div class="form-container">
+                        <form action="action_page.php" class="mr-10">
+                            <div>
+                                <label for="fname">Full Name</label>
+                                <input type="text" id="fname" name="fname" placeholder="Write your full name" required>
+                            </div>
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="e.g, rollingsmajiwa@gmail.com" required>
+                            </div>
+                            <div>
+                                <label for="text">Message</label>
+                                <textarea name="message" id="text"></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+                <h3>Working Hours</h3>
+                <div class="grid grid-rows-5">
+                    <div>Monday 8:00 am-6:00 pm</div>
+                    <div>Tuesday 8:00 am-6:00 pm</div>
+                    <div>Wednesday 8:00 am-6:00 pm</div>
+                    <div>Thursday 8:00 am-6:00 pm</div>
+                    <div>Friday 8:00 am-6:00 pm</div>
+
+
+                </div>
+
+        <div class="footer-bottom">
+            <p>&copy;SmartAcademic 2026. All Rights reserved.</p>
+        </div>
+    </footer>
     
 </body>
 </html>

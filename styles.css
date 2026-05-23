@@ -1,0 +1,95 @@
+header {
+    background-color: transparent;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 20px;
+    top: 0;
+    border-color: black;
+    position: sticky;
+
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo {
+    color: blue;
+    font: bolder;
+    font-size: larger;
+    text-shadow: 1px 1px 2px black;
+    
+}
+a {
+    text-decoration: none;
+    padding: 5px;
+    font-size: medium;
+    
+}
+body {
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+#Home {
+    background-image: url('assets/images/classroom3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    margin: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    padding: 8px;
+}
+.hero-item {
+    color: rgb(17, 17, 105);
+}
+.hero-item h1 {
+    font-size: larger;
+    font: bolder;
+    
+}
+#Services {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#Contact {
+    
+}
+.form-container {
+    width: 100%;
+    background-color: rgb(179, 179, 193);
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: medium;
+    text-shadow: 1px 1px 8px black;
+    
+    
+    
+}
+footer {
+    border-top: 2px solid black;
+    margin-top: 6px;
+    background-color: #1b1440;
+    color: #8291c2;
+}
+.footer-bottom {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color:#0E0929 ;
+}
