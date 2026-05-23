@@ -1,8 +1,7 @@
 header {
-    background-color: transparent;
+    background-color: #0F172A;
     width: 100%;
-    backdrop-filter: blur(10px);
-    z-index: 20px;
+    z-index: 500;
     top: 0;
     border-color: black;
     position: sticky;
@@ -12,10 +11,11 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: white;
 
 }
 .logo {
-    color: blue;
+    color: white;
     font: bolder;
     font-size: larger;
     text-shadow: 1px 1px 2px black;
@@ -29,7 +29,7 @@ a {
 }
 body {
     box-sizing: border-box;
-    background-color: lightgray;
+    background-color: white;
 }
 #Home {
     background-image: url('assets/images/classroom3.jpg');
@@ -38,33 +38,37 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .hero-card {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid black;
     margin: 40px;
     border-radius: 10px;
     backdrop-filter: blur(1px);
     padding: 8px;
+    box-shadow: 0 10px 20px -4px black;
 }
 .hero-item {
-    color: rgb(17, 17, 105);
+    color: #334155;
 }
 .hero-item h1 {
-    font-size: larger;
+    font-size: xx-large;
     font: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
     
 }
 #Services {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-#Contact {
+    margin-bottom: 30px;
+    background-color: #f8fafc;
     
 }
 .form-container {
@@ -83,13 +87,25 @@ body {
 footer {
     border-top: 2px solid black;
     margin-top: 6px;
-    background-color: #1b1440;
-    color: #8291c2;
+    background-color: #18223a;
+    color: white;
 }
 .footer-bottom {
     border-top: 2px solid black;
     display: flex;
     justify-content: center;
     padding: 5px;
-    background-color:#0E0929 ;
+    background-color: #0F172A;
+}
+.dashboard-btn {
+    display: inline-block;
+    border: 1px solid gray;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+    padding: 4px;
+    width: 6rem;
+}
+.dashboard-btn:hover {
+    background-color: #1D4ED8;
 }
