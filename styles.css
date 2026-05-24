@@ -28,6 +28,9 @@ a {
     font-size: medium;
     
 }
+a:hover {
+    color: lightgray;
+}
 body {
     box-sizing: border-box;
     background-color: white;
@@ -118,13 +121,15 @@ footer {
     font-size: 0.95rem;
     
 }
+
 .footer-container {
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
-    max-width: 1100px;
-    gap: 30px;
+    
+    width: 100%;
+    gap: 20px;
 }
 .about-container2 {
     display: grid;
@@ -142,8 +147,9 @@ footer {
 
 }
 .about-image {
-    background-color: rgb(207, 228, 236);
+    background-color: rgb(218, 224, 227);
     padding: 8px;
+
 }
 .about-image h3 {
     font-size: large;
