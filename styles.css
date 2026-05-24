@@ -142,9 +142,12 @@ footer {
 
 }
 .about-image {
-    background-color: rgb(185, 196, 199);
+    background-color: rgb(207, 228, 236);
     padding: 8px;
-    box-shadow: 4px 4px 23px 1px rgb(161, 161, 194);
+}
+.about-image h3 {
+    font-size: large;
+    font-weight: 700;
 }
 .about-container2 h2 {
     color: #0F172A;
