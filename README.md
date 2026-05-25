@@ -16,7 +16,7 @@ Traditional school monitoring workflows rely heavily on manually updated physica
 
 ## 3. Technologies Used
 * *HTML5:* Semantic architecture optimized for clean SEO indexing and accessibility navigation.
-* *Tailwind CSS & Vanilla CSS:* Combined mobile-first utility styling workflow with fluid typography scales and Flexbox grid systems.
+* *Tailwind CSS:* Combined mobile-first utility styling workflow with fluid typography scales and Flexbox grid systems.
 * *Git/GitHub Pages:* Agile continuous deployment pipeline hosting direct layout updates on custom domain repositories.
 
 ---
