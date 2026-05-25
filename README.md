@@ -42,5 +42,5 @@ cd smartAcademic
 
 ## 7. Author
 **Rollings Majiwa**
-* GitHub: 
-* Email: rollingsmajiwa@gmail.com
+* GitHub: [https://github.com/rollingsmajiwa]
+* Email: [rollingsmajiwa@gmail.com]
