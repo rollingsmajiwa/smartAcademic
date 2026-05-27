@@ -22,11 +22,43 @@ nav {
     
     
 }
+.navli {
+    display: none;
+}
  nav a {
     text-decoration: none;
     padding: 5px;
     font-size: medium;
+    font-weight: 600;
     
+    
+}
+.hamburger-menu {
+    position: relative;
+    display: block;
+}
+.menu {
+    list-style-type: none;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    padding: 5px;
+    font-size: x-large;
+}
+.menu-dropdown {
+    position: absolute;
+    background-color: #0F172A;
+    border: 1px solid white;
+    width: 8.5rem;
+    z-index: 40;
+    right: 0;
+    top: 100%;
+    padding: 10px;
+    font-weight: 600;
+}
+.menu-dropdown a {
+    display: block;
+    color: white;
+
 }
 nav a:hover {
     color: lightgray;
@@ -126,10 +158,15 @@ footer {
     padding: 30px;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
+    gap: 20px;
+    
+    
+    
+    
     
     width: 100%;
-    gap: 20px;
+    column-gap: 30px;
 }
 .about-container2 {
     display: grid;
@@ -173,13 +210,36 @@ footer {
     line-height: 1.25;
     margin-bottom: 20px;
 }
-
+.working-h {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    margin: 0 auto;
+}
+.working-h li {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quick-li {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 @media (max-width: 968px) {
     .about-container2 {
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
+     .footer-container {
+        flex-direction: column;
+        gap: 35px;
+       
+     }
+   
     .service-container {
         grid-template-columns: repeat(1, 1fr);
         margin-left: 8px;
@@ -189,6 +249,18 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+
+}
+@media (min-width: 768px) {
+    .hamburger-menu {
+        display: none;
+    }
+    .navli {
+        display: flex;
+    }
+    .footer-container {
+        
+    }
 }
 .form-card {
     background-color: rgba(255, 255, 255, 0.15);
