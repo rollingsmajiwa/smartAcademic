@@ -8,6 +8,17 @@
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+     <header>
+        <nav>
+            <div class="logo"><span class="ml-4 font-black">SmartAcademic</span></div>
+            <div class="navli">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="index.html">Services</a>  
+                <a href="contact.html">Contact</a>      
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="bg-[url('assets/images/teacher-student.jpg')] w-full bg-cover bg-center flex justify-center h-[100vh] items-center">
             <div>
@@ -27,15 +38,36 @@
                             <label for="Admission" class="text-white">Admission Number/TSC Number</label>
                             <input type="text" id="Admission" name="Admission" required class="border border-black-100 rounded-sm p-2 w-full border-gray-400 text-[#cbd5e1]">
                         </div>
-                        <div class="flex justify-center gap-5 mt-4 mb-4">
+                        <div class="flex justify-center gap-7 mt-4 mb-4">
                             <button type="submit" class="bg-[#1e3a8a] rounded-md p-2 text-white font-semibold font-black hover:bg-blue-500">Register as a Teacher</button>
-                            <button type="submit" class="bg-[#475569] rounded-md p-2 text-white font-semibold font-black hover:bg-blue-500">Register as a Student</button>
+                            <button type="submit" class="bg-[#475569] rounded-md p-2 text-white font-semibold font-black hover:bg-gray-800">Register as a Student</button>
+                        </div>
+                        <div class="flex justify-between items-center font-xs ">
+                            <span class="text-sm">Already have an account?<a href="#" class="font-medium text-xs text-blue-800 underline"> <p class="font-sm text-sm">Visit Dashboard</p></a></span>
+                            <span class="text-sm">Already have an account?<a href="#"><p class="font-medium text-sm text-blue-900 underline">Visit Dashboard</p></a></span>
                         </div>
                 </div>
                 </form>
                         </div>
             </div>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-container">
+                    <h3>Working Hours</h3>
+                    <div class="grid grid-rows-5">
+                        <div>Monday 8:00 am-6:00 pm</div>
+                        <div>Tuesday 8:00 am-6:00 pm</div>
+                        <div>Wednesday 8:00 am-6:00 pm</div>
+                        <div>Thursday 8:00 am-6:00 pm</div>
+                        <div>Friday 8:00 am-6:00 pm</div>
+                    </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy;SmartAcademic 2026. All Rights reserved.</p>
+        </div>
+    </footer>
     
 </body>
 </html>

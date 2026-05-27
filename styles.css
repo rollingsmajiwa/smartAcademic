@@ -22,13 +22,13 @@ nav {
     
     
 }
-a {
+ nav a {
     text-decoration: none;
     padding: 5px;
     font-size: medium;
     
 }
-a:hover {
+nav a:hover {
     color: lightgray;
 }
 body {
