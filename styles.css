@@ -147,9 +147,13 @@ footer {
 
 }
 .about-image {
-    background-color: rgb(218, 224, 227);
+    background-color: #f3f4f6;
     padding: 8px;
+    border-radius: 8px;
 
+}
+.about-image:hover {
+    transform: scale(1.08);
 }
 .about-image h3 {
     font-size: large;
@@ -186,3 +190,19 @@ footer {
     grid-template-columns: repeat(1, 1fr);
 }
 }
+.form-card {
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 400px;
+    height: auto;
+    position: relative;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    z-index: 50;
+    display: block;
+    
+    border: 2px solid white;
+    
+
+
+}
+
