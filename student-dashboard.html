@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student-dashboaard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-200 p-6 font-arial">
+    
+    <div class="max-w-2xl mx-auto bg-white p-5 rounded-lg">
+        <h1 class="text-2xl font-bold mb-2">Student Dashboard</h1>
+        <p id="status" class="text-sm text-gray-600 font-semibold">Exam Loading..</p>
+
+        <div id="lobby" class="block">
+            <h3 class="text-lg font-semibold mb-3">Available Exams</h3>
+            <div id="examList" class="space-y-3"></div>
+        </div>
+
+        <div id="examBox" class="hidden border border-gray-500 p-4 rounded-lg bg-gray-100">
+            <div class="flex justify-between items-center mb-4">
+                <h3 id="examTitle" class="text-xl font-bold text-gray-900"></h3>
+                <p class="text-red-600 font-bold">Time Remaining: <span id="timer"></span></p>
+            </div>
+            <div id="pdfContainer" class="w-full h-[300px] bg-white"></div>
+            <textarea id="answers" placeholder="Type your answers here" class="border border-gray-400"></textarea>
+            <br><br>
+            <button type="button" onclick="submitExam()" class="bg-blue-600 hover:bg-blue-400 text-lg text-white p-2 rounded-md font-bold">Submit Exam</button>
+        </div>
+    </div>
+    <script src="student-dashboard.js"></script>
+    
+</body>
+</html>

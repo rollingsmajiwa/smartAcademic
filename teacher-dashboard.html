@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teacher-dashboaard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://unpkg.com/lucide@latest"></script>
+    
+</head>
+<body>
+     <header>
+        <nav>
+            <div class="logo"><span class="ml-4 font-black">SmartAcademic</span></div>
+            <div class="navli">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="index.html">Services</a>  
+                <a href="contact.html">Contact</a>      
+            </div>
+            <div class="bg-white text-slate-800 font-sm border border-black-100 rounded-md m-3 p-2"><a href="portal.html">Portal</a></div>
+             <details class="hamburger-menu">
+                <summary class="menu">&#9776;</summary>
+                <div class="menu-dropdown">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="index.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <a href="portal.html">Portal</a>
+                </div>
+            </details>
+        </nav>
+    </header>
+    <div class="flex justify-center items-center">
+        <div>
+            <h2 class="font-black text-black-400 text-2xl">Teacher attendance Checker</h2>
+            <div class="mt-5">
+                <label for="teacherId">Enter your TSC Number</label>
+                <input class="w-full border rounded-sm p-2 bg-slate-100 mb-4" type="text" id="teacherId" placeholder="e.g, 998090" >
+            </div>
+            <div class="flex justify-center items-center">
+                <div>
+                    <button onclick="runGeoFence('IN')" class="bg-blue-500 border rounded-full w-30 h-30">Check my location</button>
+                    <h3 id="status">Click the button to check</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <a href="teacher-examDashboard.html" class="text-xl">Upload and Publish Exams to Stuents</a>
+
+
+
+
+     <footer>
+        <div class="footer">
+            <div class="footer-container">
+                    <div class="quick-li">
+                        <h3>Quick Links</h3>
+                        <div class="grid grid-cols-2 gap-5">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="index.html">Services</a>
+                        <a href="contact.html">Contact</a>
+                        
+                    </div>
+                    </div>
+                    <div>
+                        <h3>Support & Contact</h3>
+                        <div class="flex gap-3 mb-2">
+                            <div><i data-lucide="mail"></i></div>
+                                <p>rollingsmajiwa@gmail.com</p>
+                        
+                        </div>
+                        <div class="flex gap-3 mb-2"><div><i data-lucide="phone"></i></div>
+                            <p>+254 742234603</p>
+                        </div>
+                        <div class="flex gap-3"><div><i data-lucide="map-pin"></i></div>
+                            <p>Thendigwa, Kiambu Road</p>
+                        </div>
+
+                    </div>
+                       <div class="sub-footer">
+                           
+                                   <h3 class="footer-h">Working Hours</h3>
+                           
+                               <ul class="working-h">
+                                   <li><span>Monday</span><span>8:00 am - 6.00 pm</span></li>
+                                   <li><span>Tuesday</span><span>8:00 am - 6.00 pm</span></li>
+                                   <li><span>Wednesday</span><span>8:00 am - 6.00 pm</span></li>
+                                   <li><span>Thursday</span><span>8:00 am - 6.00 pm</span></li>
+                                   <li><span>Friday</span><span>8:00 am - 6.00 pm</span></li>
+                               </ul>
+                       </div>
+                   </div>
+            </div>
+
+        <div class="footer-bottom">
+            <p>&copy;SmartAcademic 2026. All Rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="teacher.js">
+    </script>
+    
+    
+    
+</body>
+</html>

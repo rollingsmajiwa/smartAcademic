@@ -1,0 +1,21 @@
+{
+  "name": "smartacademic",
+  "version": "1.0.0",
+  "description": "SmartAcademic is a modern, responsive administrative web application built to streamline daily school operations, modernize teacher attendance logging, and secure digital examination supervision ecosystems. The interface features a premium, clean design language tailored for educational administrators, instructors, and students alike.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rollingsmajiwa/smartAcademic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rollingsmajiwa/smartAcademic/issues"
+  },
+  "homepage": "https://github.com/rollingsmajiwa/smartAcademic#readme"
+}

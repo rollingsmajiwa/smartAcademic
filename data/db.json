@@ -1,0 +1,72 @@
+{
+  "teachers": [
+    {
+      "id": "TSC-998090",
+      "name": "Rollings Majiwa"
+    },
+    {
+      "id": "TSC-1177392",
+      "name": "Gloria Tirop"
+    },
+    {
+      "id": "TSC-789987",
+      "name": "Kevin Mburu"
+    }
+  ],
+  "attendance": [
+    {
+      "teacherId": "998090",
+      "direction": "IN",
+      "id": "UGtSCB1GyXY"
+    },
+    {
+      "teacherId": "998090",
+      "direction": "IN",
+      "id": "B0iSYqSTjn0"
+    },
+    {
+      "teacherId": "998090",
+      "direction": "IN",
+      "id": "d2p3gZ-ddIg"
+    },
+    {
+      "teacherId": "34567",
+      "direction": "IN",
+      "id": "01QHiIGe4x4"
+    },
+    {
+      "teacherId": "998090",
+      "direction": "IN",
+      "id": "2wl_Q1tWPh4"
+    }
+  ],
+  "admin-actions": [],
+  "exams": [
+    {
+      "id": "OjeAJ8vrhtQ",
+      "title": "KDEAP ICT Integration Training.pdf",
+      "durationMinute": "2"
+    },
+    {
+      "id": "Uf14P2DeWAU",
+      "title": "KDEAP ICT Integration Training.pdf",
+      "durationMinute": "2",
+      "fileUrl": "./document/KDEAP ICT Integration Training.pdf"
+    }
+  ],
+  "exam-submission": [
+    {
+      "examId": "OjeAJ8vrhtQ",
+      "answers": "",
+      "submittedAt": "2026-06-29T18:40:06.367Z",
+      "id": "tD1R0yKt3Ss"
+    },
+    {
+      "examId": "OjeAJ8vrhtQ",
+      "answers": "trttt",
+      "submittedAt": "2026-06-29T18:43:55.675Z",
+      "id": "UEPN9ssrPP8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
