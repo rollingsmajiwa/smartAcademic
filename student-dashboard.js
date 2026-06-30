@@ -70,7 +70,7 @@ async function submitExam() {
         submittedAt: new Date().toISOString()
     };
     try {
-        await fetch(`${URL}/submission`, {
+        await fetch(`${URL}/exam-submission`, {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(studeData)

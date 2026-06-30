@@ -38,34 +38,57 @@
       "teacherId": "998090",
       "direction": "IN",
       "id": "2wl_Q1tWPh4"
+    },
+    {
+      "teacherId": "222223",
+      "direction": "IN",
+      "id": "4ycQTYodIPk"
+    },
+    {
+      "teacherId": "998090",
+      "direction": "IN",
+      "id": "UVqKb7VJJ64"
+    },
+    {
+      "teacherId": "998090",
+      "direction": "IN",
+      "id": "kjHSWE8TCfY"
+    },
+    {
+      "teacherId": "998090",
+      "direction": "IN",
+      "id": "Fmk2zCHtHdM"
     }
   ],
   "admin-actions": [],
   "exams": [
     {
-      "id": "OjeAJ8vrhtQ",
-      "title": "KDEAP ICT Integration Training.pdf",
+      "id": "SBQGTUYtDNM",
+      "title": "INTRODUCTION TO ICT INTEGRATION IN LEARNING.pptx",
       "durationMinute": "2"
     },
     {
-      "id": "Uf14P2DeWAU",
-      "title": "KDEAP ICT Integration Training.pdf",
-      "durationMinute": "2",
-      "fileUrl": "./document/KDEAP ICT Integration Training.pdf"
+      "id": "Zp4Vn6h2FcI",
+      "title": "Who are you.pptx",
+      "durationMinute": "2"
+    },
+    {
+      "id": "lSlsckYZWBI",
+      "title": "ICT TOOLS FOR LEARNING.pptx",
+      "durationMinute": "2"
+    },
+    {
+      "id": "dZL5YM-2g8Q",
+      "title": "Who are you.pptx",
+      "durationMinute": "2"
     }
   ],
   "exam-submission": [
     {
-      "examId": "OjeAJ8vrhtQ",
-      "answers": "",
-      "submittedAt": "2026-06-29T18:40:06.367Z",
-      "id": "tD1R0yKt3Ss"
-    },
-    {
-      "examId": "OjeAJ8vrhtQ",
-      "answers": "trttt",
-      "submittedAt": "2026-06-29T18:43:55.675Z",
-      "id": "UEPN9ssrPP8"
+      "examId": "SBQGTUYtDNM",
+      "answers": "this is",
+      "submittedAt": "2026-06-30T02:41:42.568Z",
+      "id": "0szCKKl8-h4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
